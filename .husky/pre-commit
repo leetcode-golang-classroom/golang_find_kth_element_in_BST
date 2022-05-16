@@ -1,0 +1,3 @@
+#!/bin/bash
+go test -v -cover ./...
+go test -v -benchmem -run=none -bench ^BenchmarkSol sol/sol
